@@ -1,0 +1,131 @@
+body,html{
+	margin:0;
+	padding:0;
+}
+
+.main-title{
+	background-color: rgb(89,93,157);
+	color:white;
+	padding-top: 25px;
+	overflow: hidden;
+	position:fixed;
+	width: 100%;
+	height: 130px; 
+	top: 0px;
+	z-index: 2;
+}
+
+.main-title img{
+	float:left;
+	height:200px;
+    margin-left: 30px;
+    margin-top: -50px;
+   }
+.main-title-word{
+	font-family: 'Pacifico', cursive;
+	font-weight: light;
+	font-size: 40px;
+	float:left;
+	padding-left: 50px;
+
+}
+
+
+
+.nav-bar{
+	background-color: rgb(140,193,233);
+	height: 50px;
+	position: fixed;
+	z-index: 3;
+	width:100%;
+	top: 130px;
+
+}
+
+.nav{
+	float:right;
+	display: block;
+	margin-top: -20px;
+	margin-left: 3px;
+	height: 50px;
+	text-decoration:none;
+	color:black;
+	font-family: 'Quicksand', sans-serif;
+ 	font-size: 23px;
+	background-color: rgb(255,251,177);
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+.active .nav{
+	background-color: rgb(82,83,77) !important;
+	color:white !important;
+}
+
+.nav:hover{
+	background-color: black !important;
+	color:white !important;
+	text-decoration:none !important;
+
+}
+
+
+
+.select-place{
+	position:relative;
+}
+
+.drop-down-content{
+	top:30px;
+	right:60px;
+	display:none;
+	position:absolute;
+    border-radius: 10px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.select-place:hover .drop-down-content {
+	display:block;
+}
+
+.city{
+	background-color: rgb(89,93,157);
+	width:150px;
+	margin: 0px;
+	padding: 10px;
+	padding-bottom: 10px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 200;
+	display: block;
+	color:white;
+}
+
+.city:hover{
+	text-decoration: none;
+	color: white;
+	background-color: black;
+
+}
+
+.content{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	margin:auto;
+	height:100%;
+	width:60%;
+	margin-top: 180px;
+	top:200px;
+
+}
+
+.main-pho{
+	width:100%;
+	padding: 10px;
+
+}
+
